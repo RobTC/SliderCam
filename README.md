@@ -4,6 +4,7 @@ Camera slider 16x2 GUI and stepper motion control for Arduino.
 ---------
 
 See http://www.pololu.com/product/2128 for information and warnings on the A4988
+
 See http://www.dfrobot.com/wiki/index.php/LCD_KeyPad_Shield_For_Arduino_SKU:_DFR0009 for info on the Amazon SainSmart shield (it's identical).
 
 Minimum step count is one; ie. the entire motion is a single step. This is to avoid dividing by zero in the motion control calculations.
