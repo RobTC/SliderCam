@@ -3,6 +3,9 @@ SliderCam v0.2 Rob Taylor 2014 GPL 3.0
 Camera slider 16x2 GUI and stepper motion control for Arduino.
 ---------
 
+See http://www.pololu.com/product/2128 for information and warnings on the A4988
+See http://www.dfrobot.com/wiki/index.php/LCD_KeyPad_Shield_For_Arduino_SKU:_DFR0009 for info on the Amazon SainSmart shield (it's identical).
+
 Minimum step count is one; ie. the entire motion is a single step. This is to avoid dividing by zero in the motion control calculations.
 
 Remember that the unit splits up the total duration into motion time and shutter time. If the number of steps multiplied by the set shutter time (default at 2 seconds) exceeds the total duration set, the unit will not function as the delay period between motor steps ("pulseDelay") will become negative. It's generally a good idea to calculate the total time spent paused based on your input steps and preset shutter time prior to setting the total duration. This non-automation and lack of error-checking is flagged for future fixing.
