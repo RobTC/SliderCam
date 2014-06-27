@@ -22,6 +22,6 @@ Serial.println();
 Serial.println();
 Serial.println();
 
-Add other values and copy as necessary.
+Add other values and copy as necessary.  Calculated values tell a great deal if something is wrong.
 
 Where "Stop!" used to be a polled feature of the motionControl() function, stoppage is now relegated to the hardware reset button, which improves speed and timing, and now a blinking "Stop!" indicates that a motion run has completed. Hit select to return to the main menu.
