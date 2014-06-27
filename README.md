@@ -1,7 +1,7 @@
 SliderCam v0.2 Rob Taylor 2014 GPL 3.0
-
-Camera slider 16x2 GUI and stepper motion control for Arduino.
 =========
+Camera slider 16x2 GUI and stepper motion control for Arduino.
+---------
 
 Minimum step count is one; ie. the entire motion is a single step. This is to avoid dividing by zero in the motion control calculations.
 
